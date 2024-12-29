@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "client",
+    "slug": "client",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/burger.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/burger.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "This app needs access to your location to show nearby restaurants.",
+      
+      "supportsTablet": true
+      }
+    },
+    "android": {
+      "permissions": ["ACCESS_FINE_LOCATION"],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/burger.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.sohaibriaz.client"
+    },
+    "web": {
+      "favicon": "./assets/burger.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "739c9b45-9d12-4328-a908-1db8af4d789f"
+      }
+    }
+  }
+}
